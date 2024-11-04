@@ -25,7 +25,7 @@ export const AboutMe = () => {
             orientation="vertical"
             className="w-full max-w-xs"
           >
-            <CarouselContent className="mt-1 h-[200px]">
+            <CarouselContent className="mt-1 h-[250px]">
               {dataSlider.map((data) => (
                 <CarouselItem key={data.id}>
                   <div className="flex items-center justify-center ">

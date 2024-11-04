@@ -1,4 +1,5 @@
 import { AboutMe } from "@/components/AboutMe";
+import { Experience } from "@/components/Experience";
 import { Introduction } from "@/components/introduction";
 import { Navbar } from "@/components/ui/Navbar";
 
@@ -8,6 +9,7 @@ export default function Home() {
     <Navbar/>
     <Introduction/>
     <AboutMe/>
+    <Experience />
   </main>
   )
 }
