@@ -1,6 +1,10 @@
 
 export const ContactForm = () => {
   return (
-    <div>ContactForm</div>
+    <div className="" >
+      <h1>
+        Contact form
+      </h1>
+    </div>
   )
 }
