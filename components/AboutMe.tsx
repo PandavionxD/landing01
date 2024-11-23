@@ -23,8 +23,10 @@ export const AboutMe = () => {
             <Carousel
               opts={{
                 align: "start",
+                loop: true,
               }}
               orientation="vertical"
+
               className="w-full max-w-xs"
             >
               <CarouselContent className="mt-1 h-[250px]">

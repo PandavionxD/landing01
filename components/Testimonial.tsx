@@ -18,7 +18,12 @@ export const Testimonial = () => {
         id="testimonials"
       >
         <Title title="Testimonios" subtitle="Review de los clientes" />
-        <Carousel className="mx-10 mt-6">
+        <Carousel 
+        opts={{
+          align:"start",
+          loop:true
+        }}
+        className="mx-10 mt-6">
           <CarouselContent className="gap-8">
             {dataTestimonials.map((testimonial) => (
               <CarouselItem
