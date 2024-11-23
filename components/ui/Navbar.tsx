@@ -10,8 +10,8 @@ import {
 
 export const Navbar = () => {
   return (
-    <nav className="fixed z-20 flex flex-col items-center w-full mt-auto justify-center h-max bottom-12">
-      <div className="flex items-center gap-2 justify-center px-4 py-1 dark:bg-white/10 bg-slate-800/20 background-blur-sm rounded-full ">
+    <nav className="fixed z-20 bottom-12 left-[calc(50%-180px)] w-[360px] flex items-center ">
+      <div className="flex items-center justify-center px-4 py-1 dark:bg-white/10 bg-slate-800/20 background-blur-sm rounded-full ">
         {itemsNavbar.map((item) => (
           <div
             key={item.id}

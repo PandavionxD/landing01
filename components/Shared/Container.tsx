@@ -6,7 +6,7 @@ interface Props {
 
 export const Container = ({ children }: Props) => {
   return (
-    <div className="px-12 md:px-40 w-full grid grid-cols-1 min-h-[95vh] justify-center items-center ">
+    <div className="px-12 md:px-40 w-full grid grid-cols-1 min-h-[95vh] place-content-center place-items-center"> 
       {children}
     </div>
   );

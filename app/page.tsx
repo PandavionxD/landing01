@@ -9,7 +9,7 @@ import { Navbar } from "@/components/ui/Navbar";
 
 export default function Home() {
   return (
-  <main className="pb-40" >
+  <main className="grid w-full place-content-center " >
     <Navbar/>
     <Introduction/>
     <AboutMe/>
