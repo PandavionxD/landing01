@@ -41,13 +41,13 @@ export const dataAboutMe = [
 export const itemsNavbar = [
   {
     id: 1,
-    title: "Introduction",
+    title: "Introducción",
     icon: <UserCheck size={20} />,
     link: "#introduction",
   },
   {
     id: 2,
-    title: "Home",
+    title: "Sobre mí",
     icon: <UserRound size={20} />,
     link: "#about-me",
   },
@@ -59,25 +59,25 @@ export const itemsNavbar = [
   },
   {
     id: 4,
-    title: "Services",
+    title: "Servicios",
     icon: <SquarePen size={20} />,
     link: "#services",
   },
   {
     id: 5,
-    title: "Portfolio",
+    title: "Portafolio",
     icon: <BriefcaseBusiness size={20} />,
     link: "#portfolio",
   },
   {
     id: 6,
-    title: "Testimonials",
+    title: "Testimonios",
     icon: <PersonStanding size={20} />,
     link: "#testimonials",
   },
   {
     id: 7,
-    title: "Contact",
+    title: "Contacto",
     icon: <Mail size={20} />,
     link: "#contact",
   },
@@ -313,22 +313,22 @@ export const dataContact = [
   {
     id: 1,
     title: "Teléfono",
-    subtitle: "+34 677 66 66 33",
+    subtitle: "+51 921770857",
     link: "tel:+34677666633",
     icon: <Phone />,
   },
   {
     id: 2,
     title: "Github",
-    subtitle: "github.com/ratasi",
-    link: "github.com/ratasi",
+    subtitle: "github.com/PandavionxD",
+    link: "https://github.com/PandavionxD",
     icon: <Code2 />,
   },
   {
     id: 3,
     title: "Email",
-    subtitle: "email@email.com",
-    link: "mailto:test@test.com",
+    subtitle: "alex@email.com",
+    link: "mailto:1151372@senati.pe",
     icon: <Inbox />,
   },
 ];
@@ -377,3 +377,35 @@ export const dataTestimonials = [
     imageUrl: "/profile-3.jpeg",
   },
 ];
+
+export const footer = [
+  {
+    id:1,
+    ref:"#introduction",
+    title:"Introducción"
+  },{
+    id:2,
+    ref:"#about-me",
+    title:"Sobre mí"
+  },{
+    id:3,
+    ref:"#skills",
+    title:"Skills"
+  },{
+    id:4,
+    ref:"#services",
+    title:"Servicios"
+  },{
+    id:5,
+    ref:"#portfolio",
+    title:"Portafolio"
+  },{
+    id:6,
+    ref:"#testimonials",
+    title:"Testimonios"
+  },{
+    id:7,
+    ref:"#contact",
+    title:"Contacto"
+  },
+]

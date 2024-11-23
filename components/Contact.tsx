@@ -1,19 +1,19 @@
 import { dataContact } from "@/data";
 import { Title } from "./Shared/Title";
 import Link from "next/link";
-import { ContactForm } from "./ContactForm";
 import { Container } from "./Shared/Container";
+import FooterPage from "./Footer";
 
 export const Contact = () => {
   return (
     <Container>
-      <div className="p-6 md:px-12 md:py-44 max-w-5xl mx-auto" id="contact">
+      <div className="p-6 md:px-12 md:py-44 w-full mx-auto" id="contact">
         <Title
           title="Contacta conmigo"
           subtitle="Ponte en contaco conmigo 👋"
         />
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-7 mt-8">
-          <div>
+        <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-3 md:gap-7 mt-8">
+          <>
             {dataContact.map((data) => (
               <div
                 key={data.id}
@@ -27,11 +27,9 @@ export const Contact = () => {
                 </Link>
               </div>
             ))}
-          </div>
-          <div className="col-span-2">
-            <ContactForm />
-          </div>
+          </>
         </div>
+        <FooterPage/>
       </div>
     </Container>
   );
